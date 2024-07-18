@@ -21,3 +21,5 @@ const code=[{
 code.forEach((item)=>{
     console.log(item.langName)
 })
+//foreach doesnot return=>undefined
+
