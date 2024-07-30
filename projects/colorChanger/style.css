@@ -1,0 +1,23 @@
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#grey{
+    background-color: grey;
+}
+#pink{
+    background-color: crimson;
+}
+button{
+    padding: 10px 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: azure;
+    height: 40px;
+    width: 370px;
+    justify-content: center;
+  
+    
+}
