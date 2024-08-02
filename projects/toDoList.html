@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inp" placeholder="Enter your task"/>
+    <button id='btn'>Add Task</button>
+    <ul>
+        <li>Sleep</li>
+        <li>Code</li>
+    </ul>
+<script>
+    const input=document.querySelector('#inp');
+    document.querySelector('#btn').addEventListener('click',()=>{
+        let item=document.createElement("li");
+        item.innerText=input.value;
+        document.querySelector('ul').appendChild(item);
+        input.value;
+    })
+</script>
+</body>
+</html>
